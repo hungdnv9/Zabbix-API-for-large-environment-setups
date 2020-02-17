@@ -42,7 +42,7 @@ group.create(hostgroups)
 ## Create templates
 
 Template 								| Link Groups
-------------------------------------------------------------------------------------------------------------- 
+----------------------------------------|-------------------------------------------------------------------- 
 ABC_TEMPLATE_DISCOVER_SERVICES			|  ABC_PRODUCTION_SERVERS, ABC_STAGGING_SERVERS, ABC_DEVELOP_SERVERS
 ABC_TEMPLATE_INFRATRUCTURE_MONITORING 	|  ABC_SERVERS
 
