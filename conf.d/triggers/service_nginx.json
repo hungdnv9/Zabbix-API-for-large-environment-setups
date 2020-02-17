@@ -1,0 +1,42 @@
+{
+	"description": "Service Nginx Down",
+	"expression": {
+		"host": "ABC_TEMPLATE_INFRATRUCTURE_MONITORING",
+		"key": "trapper.nginx",
+		"function": "last()",
+		"operator": "=",
+		"constant": 3
+	},
+	"comments": "Check Nginx status",
+	"priority": 5,
+	"status": 0,
+	"type": 0,
+	"url": "https://github.com/hungdnv",
+	"recovery_mode": 1,
+	"recovery_expression": {
+		"host": "ABC_TEMPLATE_INFRATRUCTURE_MONITORING",
+		"key": "trapper.nginx",
+		"function": "last()",
+		"operator": "=",
+		"constant": 0
+	},
+	"manual_close": 0,
+	"tags": [
+		{
+			"tag": "service",
+			"value": "nginx"
+		},
+		{
+			"tag": "system",
+			"value": "yes"
+		}
+
+	]
+}
+
+
+
+
+
+
+

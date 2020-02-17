@@ -1,0 +1,16 @@
+{
+    "name": "haproxy_status",
+    "key_": "trapper.haproxy",
+    "hostid": "ABC_TEMPLATE_INFRATRUCTURE_MONITORING",
+    "type": 2,
+    "status": 0,
+    "value_type": 3,
+    "applications": [
+        "haproxy",
+        "web"
+    ],
+    "units": "",
+    "trapper_hosts": "",
+    "delay": 30,
+    "description": "Somethings related the item"
+}

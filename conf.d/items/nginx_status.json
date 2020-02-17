@@ -1,0 +1,14 @@
+{
+    "name": "nginx_status",
+    "key_": "trapper.nginx",
+    "hostid": "ABC_TEMPLATE_INFRATRUCTURE_MONITORING",
+    "type": 2,
+    "value_type": 3,
+    "applications": [
+        "nginx",
+        "web"
+    ],
+    "units": "",
+    "trapper_hosts": "",
+    "delay": 30
+}

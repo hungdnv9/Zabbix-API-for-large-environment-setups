@@ -1,0 +1,23 @@
+http://bonfire-dev.gforge.inria.fr/doc.bonfire-project.eu/integration/monitoring/howto/zabbix-api.html
+
+Groups					| Function
+------------------------|-------------------------------
+ABC_PRODUCTION_SERVERS	| List servers for production
+ABC_STAGGING_SERVERS	| List servers for stagging
+ABC_DEVELOP_SERVERS		| List servers for dev
+ABC_SERVERS 			| List all server of ABC company
+
+
+
+Template 								| Link Groups
+---------------------------------------------------------------------------- 
+ABC_TEMPLATE_DISCOVER_SERVICES			|  ABC_PRODUCTION_SERVERS, ABC_STAGGING_SERVERS, ABC_DEVELOP_SERVERS
+ABC_TEMPLATE_INFRATRUCTURE_MONITORING 	|  ABC_SERVERS
+
+
+Item				| Key						| Interval  | History | Trends 	| Type 			| Application
+--------------------|-----------------------------------------------------------------------------------------
+available_memory	| vm.memory.size[available] | 1m		| 7d	  | 365		| Zabbix Agent	| Memory
+number_of_processes	| proc.num[]				| 1m		| 7d	  | 365		| Zabbix Agent	| CPU
+
+

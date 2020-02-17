@@ -1,0 +1,35 @@
+{
+	"description": "Service Haproxy are Down",
+	"expression": {
+		"host": "ABC_TEMPLATE_INFRATRUCTURE_MONITORING",
+		"key": "trapper.haproxy",
+		"function": "last()",
+		"operator": "=",
+		"constant": 3
+	},
+	"comments": "Check Haproxy status",
+	"priority": 5,
+	"status": 1,
+	"type": 0,
+	"url": "https://github.com/hungdnv",
+	"recovery_mode": 0,
+	"manual_close": 0,
+	"tags": [
+		{
+			"tag": "service",
+			"value": "haproxy"
+		},
+		{
+			"tag": "system",
+			"value": "yes"
+		}
+
+	]
+}
+
+
+
+
+
+
+
