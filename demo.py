@@ -3,7 +3,7 @@ from ZabbixAPI.trigger import Triggers
 from ZabbixAPI.item import Items
 
 ## CREATE GROUPS
-hostgroups_file = "/home/hungdnv/ANTS/zabbix-server/conf.d/hostgroups/create.txt"
+
 hostgroups=["ABC_PRODUCTION_SERVERS", "ABC_STAGGING_SERVERS", "ABC_DEVELOP_SERVERS", "ABC_SERVERS"]
 #group.create(hostgroups)
 #group.getid(hostgroups)

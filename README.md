@@ -1,5 +1,7 @@
 # Zabbix-API-for-large-environment-setups
 
+This is my personal project, and it's still in progressing. It's written by Python 2 with very common library, i use request and json to handle process and generate data
+It's will help you save your time to manager and setup zabbix environment automation.
 
 ## Simple plan example
 
@@ -151,3 +153,6 @@ t = Triggers("./conf.d/triggers/trigger_haproxy_status.json")
 #t.update()
 #t.delete()
 ```
+
+
+Thanks for your attention. If you need more further, please contact me by email hungdnv9@gmail.com. Nice to meet you :)))
